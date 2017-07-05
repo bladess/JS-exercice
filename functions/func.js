@@ -24,7 +24,7 @@ var bonjourNomPrenom = function(nom, prenom, age){
 }
 var ageGenre = function (age, genre){
 	if (typeof age !== "number"){
-		return "mauvais age";
+		return "not a number";
 	}
 	var endStr = "et vous êtes majeur";
 	var startStr;  
