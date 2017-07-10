@@ -3,7 +3,7 @@ var mois = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Aout','Se
 console.log(mois[2]);
 console.log(mois[5]);
 console.log(mois[10]);
-mois[8] = 'Août';
+mois[7] = 'Août';
 var leng = mois.length;
 for(var i=0;i < leng;i++){
 	console.log(mois[i]);
